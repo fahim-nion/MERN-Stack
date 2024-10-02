@@ -1,42 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- TODO
+1. Make both paragraph elements wrap around the image.
+2. Use Float to move the cat div to the left and the dog div to the right.
+3. Use clear to make the footer go below both the cat and dog div. -->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Css Float Practice</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>CSS Float</title>
+  <style>
+    div {
+      display: inline-block;
+      width: 40%;
+      
+    }
+
+    p {
+      font-size: 2em;
+    
+    }
+    img{
+      float: left;
+    }
+
+    .cat {
+      background-color: aquamarine;
+      float: left;
+    }
+
+    .dog {
+      background-color: coral;
+      float: right;
+    }
+
+    footer {
+      text-align: center;
+      background-color: blueviolet;
+      clear: both;
+    }
+  </style>
 </head>
 
 <body>
-    <div class="clearfix">
-        <h1>
-            A Random BlogPost
-        </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, repellat? At earum quod, suscipit omnis
-            voluptate dolorum saepe eaque numquam quaerat nesciunt provident officiis dicta quasi ut natus est minima
-            deserunt totam cupiditate dolor praesentium perspiciatis eos vel! Alias ipsam harum natus obcaecati illo
-            doloremque ab at nesciunt maiores necessitatibus! Tenetur minima mollitia iusto provident at iste ipsam
-            cumque, vero quos eos consectetur perspiciatis excepturi? Nobis est rem asperiores suscipit voluptatibus
-            eligendi similique amet facilis quam sunt vitae architecto in pariatur impedit dolore, consequatur eaque
-            optio fugiat molestiae dignissimos ipsa vel iure quis consequuntur! Voluptates voluptas quidem saepe
-            provident fugit.</p>
-        <img src="./pexels-chiecharon-913215 (1).jpg" alt="image">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dicta facere sunt voluptatem provident, nobis
-            repellat quo natus, dolorum laborum architecto qui libero inventore voluptate rerum similique impedit quidem
-            voluptatum nihil. Dolorem quas blanditiis molestias error ratione, sunt natus vel non enim deleniti fuga at
-            quam eveniet eum fugiat! Eaque tempore aliquid, assumenda iusto eveniet ut repudiandae est commodi esse odio
-            soluta praesentium facere perferendis obcaecati amet molestias, veritatis magni.</p>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim iste ipsam quasi corporis sapiente
-            praesentium at totam exercitationem, omnis fuga autem voluptatum, pariatur molestias tempore possimus est
-            alias impedit eius consequatur. Voluptatum reiciendis minus delectus. Consequatur unde sint quibusdam
-            laboriosam corporis veritatis minus amet saepe! Assumenda quaerat veritatis quo harum, blanditiis quae
-            laborum excepturi ea aliquid quam accusantium totam repellat perferendis minus. Quod, amet facere deleniti
-            voluptate velit nam deserunt quia veritatis earum sapiente nesciunt, dolor blanditiis facilis illo, sed enim
-            suscipit numquam aut ipsam consequuntur consectetur quo beatae inventore!
-        </p>
-    </div>
+  <div class="cat">
+    <h2>CatCSS</h2>
+
+    <img src="cat.jpeg" alt="cat in a box" />
+    <p class="first-paragraph">Nap all day cat dog hate mouse eat string barf pillow no baths hate everything but kitty
+      poochy. Sleep on keyboard
+      toy
+      mouse squeak roll over. Mesmerizing birds. Poop on grasses licks paws destroy couch intently sniff hand. The dog
+      smells
+      bad gnaw.</p>
+  </div>
+  <div class="dog">
+    <h2>DogCSS</h2>
+    <img src="dog.jpeg" alt="dogs in a box" />
+    <p class="second-paragraph">Heckin good boys and girls long woofer big ol wow very biscit long woofer heck what a
+      nice
+      floof, long doggo noodle
+      horse vvv very taste wow. Very taste wow many pats aqua doggo he made many woofs pupperino, puggo doing me a
+      frighten.</p>
+  </div>
+
+  <footer>Copyright. This is the footer</footer>
 </body>
 
 </html>
