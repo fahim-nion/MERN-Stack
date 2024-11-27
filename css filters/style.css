@@ -1,0 +1,4 @@
+img{
+    /* filter: blur(10px); */
+    filter: drop-shadow(16px 16px 15px aqua);
+}
