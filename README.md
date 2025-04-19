@@ -70,7 +70,7 @@ Hi! I'm Fahim Morshed, and I'm currently learning the **MERN Stack** — a power
 Feel free to follow along or collaborate!
 
 - GitHub: [github.com/fahim-morshed](https://github.com/fahim-morshed)
-- LinkedIn: [linkedin.com/in/fahim-morshed]([https://linkedin.com/in/fahim-morshed](https://www.linkedin.com/in/fahim-morshed-nion-15254026a/)
+- LinkedIn: [linkedin.com/in/fahim-morshed]([https://linkedin.com/in/fahim-morshed](https://www.linkedin.com/in/fahim-morshed-nion-15254026a/) )
 
 ---
 
