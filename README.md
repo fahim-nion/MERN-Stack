@@ -32,7 +32,7 @@ Hi! I'm Fahim Morshed, and I'm currently learning the **MERN Stack** — a power
 | Project Name      | Tech Used       | Status       | Description                      |
 |------------------|-----------------|--------------|----------------------------------|
 | Portfolio Website | HTML, CSS       | ✅ Completed | Personal portfolio               |
-| React App Demo    | React.js        | 🟡 Ongoing   | Testing components & state       |
+| React App Demo    | React.js        | ⏳ Planned   | Testing components & state       |
 | MERN Blog App     | MERN Stack      | ⏳ Planned   | Full-stack blog app project     |
 
 ---
