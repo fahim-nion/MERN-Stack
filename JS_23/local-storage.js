@@ -1,28 +1,28 @@
 //LOCAL Storage
 
-// if(localStorage.getItem("name")){
-//     let a = localStorage.getItem("name")
-//     document.write("Welcome "+a);
-// }else{
-//     let a = prompt("Enter your name");
-//     localStorage.setItem("name",a);
-//     document.write("Welcome "+a)
-// }
+if(localStorage.getItem("name")){
+    let a = localStorage.getItem("name")
+    document.write("Welcome "+a);
+}else{
+    let a = prompt("Enter your name");
+    localStorage.setItem("name",a);
+    document.write("Welcome "+a)
+}
 
-//for object storing
+for object storing
 
-// let a = {
-//     "harry":1,
-//     "rohan":67
-// }
+let a = {
+    "harry":1,
+    "rohan":67
+}
 
-// let b = JSON.stringify(a); //string e convert hoye gelo
+let b = JSON.stringify(a); //string e convert hoye gelo
 
-// localStorage.setItem("guys",b);
+localStorage.setItem("guys",b);
 
-// console.log(localStorage.getItem("guys"));
+console.log(localStorage.getItem("guys"));
 
-// JSON.parse(localStorage.getItem("guys"))  //uno reverse
+JSON.parse(localStorage.getItem("guys"))  //uno reverse
 
 
 //************************************************************* */
