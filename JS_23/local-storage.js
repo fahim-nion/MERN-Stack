@@ -9,7 +9,7 @@ if(localStorage.getItem("name")){
     document.write("Welcome "+a)
 }
 
-for object storing
+//for object storing
 
 let a = {
     "harry":1,
