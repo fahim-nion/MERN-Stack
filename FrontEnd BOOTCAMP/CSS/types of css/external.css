@@ -1,6 +1,8 @@
 a{
     text-decoration: none;
     cursor: help;
+    font-size: 100px;
+    color: blueviolet;
 }
 
 /* example of external css */
