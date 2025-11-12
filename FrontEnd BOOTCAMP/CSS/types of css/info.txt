@@ -1,0 +1,6 @@
+methods for including css
+1. inline     'not recommended'
+2. internal   'not recommended'
+3. External
+
+
